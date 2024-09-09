@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body class="body">
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <div class="CALCULATOR">
+                <input id="show" readonly>
+            <div id="buttons">
+            <button class="key" onclick="justshow('7')">7</button>
+            <button class="key" onclick="justshow('8')">8</button>
+            <button class="key" onclick="justshow('9')">9</button>
+            <button class="key2" onclick="justshow('*')">*</button>
+            <button class="key" onclick="justshow('4')">4</button>
+            <button class="key" onclick="justshow('5')">5</button>
+            <button class="key" onclick="justshow('6')">6</button>
+            <button class="key2" onclick="justshow('/')">/</button>
+            <button class="key" onclick="justshow('1')">1</button>
+            <button class="key" onclick="justshow('2')">2</button>
+            <button class="key" onclick="justshow('3')">3</button>
+            <button class="key2" onclick="justshow('+')">+</button>
+            <button class="key" onclick="justshow('8')">0</button>
+            <button class="key" onclick="calculate('=')">=</button>
+            <button class="key" onclick="justshow('.')">.</button>
+            <button class="key2" onclick="justshow('-')">-</button>
+            <button class="key" onclick="clearScreen('C')">C</button>
+            <button class="key" onclick="justshow('00')">00</button>
+            <button class="key" onclick="justshow('3.14')">π</button>
+            <button class="key2" onclick="show.value = show.value.toString().slice(0,-1)">del</button>
+           
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

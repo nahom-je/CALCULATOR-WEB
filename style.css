@@ -1,0 +1,85 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(25, 27, 27) ,rgb(171, 82, 10));
+   
+}
+.CALCULATOR{
+    background-color:rgb(87, 86, 86); 
+    width:30%;
+    height:80vh;  
+    border-radius: 5px;
+    min-width: 380px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+#show{
+    border: none;
+    color:rgb(21, 14, 0); ;
+    margin:9px;
+    width:85%;
+    height:50px;
+    padding: 20px;
+    font-size:40px;
+    text-align: left;
+    background-color: rgb(244, 233, 218);
+    box-shadow: 0px -9.5px 0px orange;
+}
+#buttons{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 371px;
+}
+.key{
+    width:105px;
+    color:white;
+    font-size: 25px;
+    background-color:rgb(87, 86, 86); 
+    border:none;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px,5px,15px rgba(0,0,0,0.2);
+    cursor: pointer;
+
+    background-position: center;
+    transition: background 0.8s;
+}
+.key:hover{
+    background-color:rgb(87, 86, 86); 
+    background-image: radial-gradient(circle,transparent 1%,rgb(87, 86, 86) 1%);
+    background-position: center;
+    background-size: 1500%;
+
+}
+ .key:active{
+    transition: background 0s;
+    background-color: #747373;
+    background-size: 7000%;
+}
+.cal{
+    margin-top:200px;
+}
+.key2{
+    margin-top:0px;
+    margin-right:5px;
+    border:none;
+    color:white;
+    font-size: 25px;
+    box-shadow: 5px 0px 0px orange;
+    cursor: pointer;
+    background-color: rgb(170, 170, 170);
+
+    background-position: center;
+    transition: background 0.8s;
+    
+}
+.key2:hover{
+    background-color:rgb(170, 170, 170);
+    background-image: radial-gradient(circle,transparent 1%,rgb(170, 170, 170) 1%);
+    background-position: center;
+    background-size: 1500%;
+}
+.key2:active{
+    transition: background 0s;
+    background-color: #b3b3b3;
+    background-size: 12000%;
+}
